@@ -1,0 +1,45 @@
+POST REQUEST
+
+//createRoom
+{
+  "id": "Room 1",
+  "roomNo": 50,
+  "bookings": ["Projector", "Whiteboard"],
+  "noSeats": 4,
+  "amenities": ["Room Service","Hair Dryer","Wifi","Television","minibar","Coffeemaker","Room Slipper","Swimming Pool"],
+  "price": 1000
+}
+
+//createBooking
+{
+  "id": "Room 1",
+  "custName": "Abi",
+  "date": "05/15/2023",
+  "startTime": "12:00",
+  "endTime": "03:00"
+}
+
+
+GET REQUEST 
+
+//getAllRooms
+
+{"output":[{"id":"8d0rgh2swlhoa64e2",
+"roomNo":100,
+"bookings":[{"custName":"Abi","startTime":"12:00","endTime":"03:00","date":"05/15/2023"}],
+"noSeats":4,"amenities":["Room Service","Hair Dryer","Wifi","Television","minibar","Coffeemaker","Room Slipper","Swimming Pool"]},
+{"id":"8d0rgh2swlhoa78pu","roomNo":101,"bookings":[],"noSeats":4,
+"amenities":["Room Service","Hair Dryer","Wifi","Television","minibar","Coffeemaker","Room Slipper","Swimming Pool"],"price":1000}]}
+
+
+//getAllBookings
+
+{"output":[{"id":"Room 1","custName":"Abi","date":"05/15/2023","startTime":"12:00","endTime":"03:00","roomNo":100,"cost":null}]}
+
+"/"
+
+{"output":"Homepage"}
+
+
+
+
